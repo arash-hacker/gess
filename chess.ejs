@@ -27,7 +27,12 @@
                   <% } else { %>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"></path></svg>
                   <% } %>
-                  <%= result.white %> victory %>
+
+                  <% if (result.white == result.black) { %>
+                    1/2 victory %>
+                  <% } else { %>
+                   <%= result.white %> victory %>
+                  <% } %>
                 </div>
               </section>
               <section class="largeable-column-fields">
@@ -45,7 +50,11 @@
                   <% } else { %>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
                   <% } %>
-                  <%= result.black %> victory %>
+                  <% if (result.white == result.black) { %>
+                    1/2 victory %>
+                  <% } else { %>
+                    <%= result.black %> victory %>
+                  <% } %>
                 </div>
               </section>
             </div>

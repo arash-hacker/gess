@@ -6,7 +6,7 @@ const ejs = require('ejs');
 let svg = '';
 (async () => {
     let pgn = (await axios('https://api.chess.com/pub/player/arash/games/2021/09'));
-    let pgnList = pgn.data.games[pgn.data.games.length - 1].pgn.split('\n');
+    let pgnList = pgn.data.games[pgn.data.games.length - 2].pgn.split('\n');
     pgnList[22] = pgnList[22]
         .replace(/\{\[\%clk \d+:\d+:\d+(\.\d)?\]\}/g, '')
         .replace(/\d+\.\.\./g, '')

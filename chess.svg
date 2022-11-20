@@ -386,7 +386,7 @@
                         }
                         .chess-move-1 .from {
                           animation-name: chess-move-1-from;
-                          animation-delay: 4.5s;
+                          animation-delay: 1.5s;
                         }
       
                         @keyframes chess-move-1-to {
@@ -405,7 +405,7 @@
                         }
                         .chess-move-1 .to {
                           animation-name: chess-move-1-to;
-                          animation-delay: 4.5s;
+                          animation-delay: 1.5s;
                         }
                       </style>
                     </div>
@@ -423,7 +423,7 @@
                         }
                         .chess-move-2 .from {
                           animation-name: chess-move-2-from;
-                          animation-delay: 8.5s;
+                          animation-delay: 2.5s;
                         }
       
                         @keyframes chess-move-2-to {
@@ -442,7 +442,7 @@
                         }
                         .chess-move-2 .to {
                           animation-name: chess-move-2-to;
-                          animation-delay: 8.5s;
+                          animation-delay: 2.5s;
                         }
                       </style>
                     </div>
@@ -460,7 +460,7 @@
                         }
                         .chess-move-3 .from {
                           animation-name: chess-move-3-from;
-                          animation-delay: 12.5s;
+                          animation-delay: 3.5s;
                         }
       
                         @keyframes chess-move-3-to {
@@ -479,7 +479,7 @@
                         }
                         .chess-move-3 .to {
                           animation-name: chess-move-3-to;
-                          animation-delay: 12.5s;
+                          animation-delay: 3.5s;
                         }
                       </style>
                     </div>
@@ -497,7 +497,7 @@
                         }
                         .chess-move-4 .from {
                           animation-name: chess-move-4-from;
-                          animation-delay: 16.5s;
+                          animation-delay: 4.5s;
                         }
       
                         @keyframes chess-move-4-to {
@@ -516,7 +516,7 @@
                         }
                         .chess-move-4 .to {
                           animation-name: chess-move-4-to;
-                          animation-delay: 16.5s;
+                          animation-delay: 4.5s;
                         }
                       </style>
                     </div>
@@ -534,7 +534,7 @@
                         }
                         .chess-move-5 .from {
                           animation-name: chess-move-5-from;
-                          animation-delay: 20.5s;
+                          animation-delay: 5.5s;
                         }
       
                         @keyframes chess-move-5-to {
@@ -553,7 +553,7 @@
                         }
                         .chess-move-5 .to {
                           animation-name: chess-move-5-to;
-                          animation-delay: 20.5s;
+                          animation-delay: 5.5s;
                         }
                       </style>
                     </div>
@@ -571,7 +571,7 @@
                         }
                         .chess-move-6 .from {
                           animation-name: chess-move-6-from;
-                          animation-delay: 24.5s;
+                          animation-delay: 6.5s;
                         }
       
                         @keyframes chess-move-6-to {
@@ -590,7 +590,7 @@
                         }
                         .chess-move-6 .to {
                           animation-name: chess-move-6-to;
-                          animation-delay: 24.5s;
+                          animation-delay: 6.5s;
                         }
                       </style>
                     </div>
@@ -608,7 +608,7 @@
                         }
                         .chess-move-7 .from {
                           animation-name: chess-move-7-from;
-                          animation-delay: 28.5s;
+                          animation-delay: 7.5s;
                         }
       
                         @keyframes chess-move-7-to {
@@ -627,7 +627,7 @@
                         }
                         .chess-move-7 .to {
                           animation-name: chess-move-7-to;
-                          animation-delay: 28.5s;
+                          animation-delay: 7.5s;
                         }
                       </style>
                     </div>
@@ -645,7 +645,7 @@
                         }
                         .chess-move-8 .from {
                           animation-name: chess-move-8-from;
-                          animation-delay: 32.5s;
+                          animation-delay: 8.5s;
                         }
       
                         @keyframes chess-move-8-to {
@@ -664,7 +664,7 @@
                         }
                         .chess-move-8 .to {
                           animation-name: chess-move-8-to;
-                          animation-delay: 32.5s;
+                          animation-delay: 8.5s;
                         }
                       </style>
                     </div>
@@ -682,7 +682,7 @@
                         }
                         .chess-move-9 .from {
                           animation-name: chess-move-9-from;
-                          animation-delay: 36.5s;
+                          animation-delay: 9.5s;
                         }
       
                         @keyframes chess-move-9-to {
@@ -701,7 +701,7 @@
                         }
                         .chess-move-9 .to {
                           animation-name: chess-move-9-to;
-                          animation-delay: 36.5s;
+                          animation-delay: 9.5s;
                         }
                       </style>
                     </div>
@@ -719,7 +719,7 @@
                         }
                         .chess-move-10 .from {
                           animation-name: chess-move-10-from;
-                          animation-delay: 40.5s;
+                          animation-delay: 10.5s;
                         }
       
                         @keyframes chess-move-10-to {
@@ -738,7 +738,7 @@
                         }
                         .chess-move-10 .to {
                           animation-name: chess-move-10-to;
-                          animation-delay: 40.5s;
+                          animation-delay: 10.5s;
                         }
                       </style>
                     </div>
@@ -756,7 +756,7 @@
                         }
                         .chess-move-11 .from {
                           animation-name: chess-move-11-from;
-                          animation-delay: 44.5s;
+                          animation-delay: 11.5s;
                         }
       
                         @keyframes chess-move-11-to {
@@ -775,7 +775,7 @@
                         }
                         .chess-move-11 .to {
                           animation-name: chess-move-11-to;
-                          animation-delay: 44.5s;
+                          animation-delay: 11.5s;
                         }
                       </style>
                     </div>
@@ -793,7 +793,7 @@
                         }
                         .chess-move-12 .from {
                           animation-name: chess-move-12-from;
-                          animation-delay: 48.5s;
+                          animation-delay: 12.5s;
                         }
       
                         @keyframes chess-move-12-to {
@@ -812,7 +812,7 @@
                         }
                         .chess-move-12 .to {
                           animation-name: chess-move-12-to;
-                          animation-delay: 48.5s;
+                          animation-delay: 12.5s;
                         }
                       </style>
                     </div>
@@ -830,7 +830,7 @@
                         }
                         .chess-move-13 .from {
                           animation-name: chess-move-13-from;
-                          animation-delay: 52.5s;
+                          animation-delay: 13.5s;
                         }
       
                         @keyframes chess-move-13-to {
@@ -849,7 +849,7 @@
                         }
                         .chess-move-13 .to {
                           animation-name: chess-move-13-to;
-                          animation-delay: 52.5s;
+                          animation-delay: 13.5s;
                         }
                       </style>
                     </div>
@@ -867,7 +867,7 @@
                         }
                         .chess-move-14 .from {
                           animation-name: chess-move-14-from;
-                          animation-delay: 56.5s;
+                          animation-delay: 14.5s;
                         }
       
                         @keyframes chess-move-14-to {
@@ -886,7 +886,7 @@
                         }
                         .chess-move-14 .to {
                           animation-name: chess-move-14-to;
-                          animation-delay: 56.5s;
+                          animation-delay: 14.5s;
                         }
                       </style>
                     </div>
@@ -904,7 +904,7 @@
                         }
                         .chess-move-15 .from {
                           animation-name: chess-move-15-from;
-                          animation-delay: 60.5s;
+                          animation-delay: 15.5s;
                         }
       
                         @keyframes chess-move-15-to {
@@ -923,7 +923,7 @@
                         }
                         .chess-move-15 .to {
                           animation-name: chess-move-15-to;
-                          animation-delay: 60.5s;
+                          animation-delay: 15.5s;
                         }
                       </style>
                     </div>
@@ -941,7 +941,7 @@
                         }
                         .chess-move-16 .from {
                           animation-name: chess-move-16-from;
-                          animation-delay: 64.5s;
+                          animation-delay: 16.5s;
                         }
       
                         @keyframes chess-move-16-to {
@@ -960,7 +960,7 @@
                         }
                         .chess-move-16 .to {
                           animation-name: chess-move-16-to;
-                          animation-delay: 64.5s;
+                          animation-delay: 16.5s;
                         }
                       </style>
                     </div>
@@ -978,7 +978,7 @@
                         }
                         .chess-move-17 .from {
                           animation-name: chess-move-17-from;
-                          animation-delay: 68.5s;
+                          animation-delay: 17.5s;
                         }
       
                         @keyframes chess-move-17-to {
@@ -997,7 +997,7 @@
                         }
                         .chess-move-17 .to {
                           animation-name: chess-move-17-to;
-                          animation-delay: 68.5s;
+                          animation-delay: 17.5s;
                         }
                       </style>
                     </div>
@@ -1015,7 +1015,7 @@
                         }
                         .chess-move-18 .from {
                           animation-name: chess-move-18-from;
-                          animation-delay: 72.5s;
+                          animation-delay: 18.5s;
                         }
       
                         @keyframes chess-move-18-to {
@@ -1034,7 +1034,7 @@
                         }
                         .chess-move-18 .to {
                           animation-name: chess-move-18-to;
-                          animation-delay: 72.5s;
+                          animation-delay: 18.5s;
                         }
                       </style>
                     </div>
@@ -1052,7 +1052,7 @@
                         }
                         .chess-move-19 .from {
                           animation-name: chess-move-19-from;
-                          animation-delay: 76.5s;
+                          animation-delay: 19.5s;
                         }
       
                         @keyframes chess-move-19-to {
@@ -1071,7 +1071,7 @@
                         }
                         .chess-move-19 .to {
                           animation-name: chess-move-19-to;
-                          animation-delay: 76.5s;
+                          animation-delay: 19.5s;
                         }
                       </style>
                     </div>
@@ -1089,7 +1089,7 @@
                         }
                         .chess-move-20 .from {
                           animation-name: chess-move-20-from;
-                          animation-delay: 80.5s;
+                          animation-delay: 20.5s;
                         }
       
                         @keyframes chess-move-20-to {
@@ -1108,7 +1108,7 @@
                         }
                         .chess-move-20 .to {
                           animation-name: chess-move-20-to;
-                          animation-delay: 80.5s;
+                          animation-delay: 20.5s;
                         }
                       </style>
                     </div>
@@ -1126,7 +1126,7 @@
                         }
                         .chess-move-21 .from {
                           animation-name: chess-move-21-from;
-                          animation-delay: 84.5s;
+                          animation-delay: 21.5s;
                         }
       
                         @keyframes chess-move-21-to {
@@ -1145,7 +1145,7 @@
                         }
                         .chess-move-21 .to {
                           animation-name: chess-move-21-to;
-                          animation-delay: 84.5s;
+                          animation-delay: 21.5s;
                         }
                       </style>
                     </div>
@@ -1163,7 +1163,7 @@
                         }
                         .chess-move-22 .from {
                           animation-name: chess-move-22-from;
-                          animation-delay: 88.5s;
+                          animation-delay: 22.5s;
                         }
       
                         @keyframes chess-move-22-to {
@@ -1182,7 +1182,7 @@
                         }
                         .chess-move-22 .to {
                           animation-name: chess-move-22-to;
-                          animation-delay: 88.5s;
+                          animation-delay: 22.5s;
                         }
                       </style>
                     </div>
@@ -1200,7 +1200,7 @@
                         }
                         .chess-move-23 .from {
                           animation-name: chess-move-23-from;
-                          animation-delay: 92.5s;
+                          animation-delay: 23.5s;
                         }
       
                         @keyframes chess-move-23-to {
@@ -1219,7 +1219,7 @@
                         }
                         .chess-move-23 .to {
                           animation-name: chess-move-23-to;
-                          animation-delay: 92.5s;
+                          animation-delay: 23.5s;
                         }
                       </style>
                     </div>
@@ -1237,7 +1237,7 @@
                         }
                         .chess-move-24 .from {
                           animation-name: chess-move-24-from;
-                          animation-delay: 96.5s;
+                          animation-delay: 24.5s;
                         }
       
                         @keyframes chess-move-24-to {
@@ -1256,7 +1256,7 @@
                         }
                         .chess-move-24 .to {
                           animation-name: chess-move-24-to;
-                          animation-delay: 96.5s;
+                          animation-delay: 24.5s;
                         }
                       </style>
                     </div>
@@ -1274,7 +1274,7 @@
                         }
                         .chess-move-25 .from {
                           animation-name: chess-move-25-from;
-                          animation-delay: 100.5s;
+                          animation-delay: 25.5s;
                         }
       
                         @keyframes chess-move-25-to {
@@ -1293,7 +1293,7 @@
                         }
                         .chess-move-25 .to {
                           animation-name: chess-move-25-to;
-                          animation-delay: 100.5s;
+                          animation-delay: 25.5s;
                         }
                       </style>
                     </div>
@@ -1311,7 +1311,7 @@
                         }
                         .chess-move-26 .from {
                           animation-name: chess-move-26-from;
-                          animation-delay: 104.5s;
+                          animation-delay: 26.5s;
                         }
       
                         @keyframes chess-move-26-to {
@@ -1330,7 +1330,7 @@
                         }
                         .chess-move-26 .to {
                           animation-name: chess-move-26-to;
-                          animation-delay: 104.5s;
+                          animation-delay: 26.5s;
                         }
                       </style>
                     </div>
@@ -1348,7 +1348,7 @@
                         }
                         .chess-move-27 .from {
                           animation-name: chess-move-27-from;
-                          animation-delay: 108.5s;
+                          animation-delay: 27.5s;
                         }
       
                         @keyframes chess-move-27-to {
@@ -1367,7 +1367,7 @@
                         }
                         .chess-move-27 .to {
                           animation-name: chess-move-27-to;
-                          animation-delay: 108.5s;
+                          animation-delay: 27.5s;
                         }
                       </style>
                     </div>
@@ -1385,7 +1385,7 @@
                         }
                         .chess-move-28 .from {
                           animation-name: chess-move-28-from;
-                          animation-delay: 112.5s;
+                          animation-delay: 28.5s;
                         }
       
                         @keyframes chess-move-28-to {
@@ -1404,7 +1404,7 @@
                         }
                         .chess-move-28 .to {
                           animation-name: chess-move-28-to;
-                          animation-delay: 112.5s;
+                          animation-delay: 28.5s;
                         }
                       </style>
                     </div>
@@ -1422,7 +1422,7 @@
                         }
                         .chess-move-29 .from {
                           animation-name: chess-move-29-from;
-                          animation-delay: 116.5s;
+                          animation-delay: 29.5s;
                         }
       
                         @keyframes chess-move-29-to {
@@ -1441,7 +1441,7 @@
                         }
                         .chess-move-29 .to {
                           animation-name: chess-move-29-to;
-                          animation-delay: 116.5s;
+                          animation-delay: 29.5s;
                         }
                       </style>
                     </div>
@@ -1459,7 +1459,7 @@
                         }
                         .chess-move-30 .from {
                           animation-name: chess-move-30-from;
-                          animation-delay: 120.5s;
+                          animation-delay: 30.5s;
                         }
       
                         @keyframes chess-move-30-to {
@@ -1478,7 +1478,7 @@
                         }
                         .chess-move-30 .to {
                           animation-name: chess-move-30-to;
-                          animation-delay: 120.5s;
+                          animation-delay: 30.5s;
                         }
                       </style>
                     </div>
@@ -1496,7 +1496,7 @@
                         }
                         .chess-move-31 .from {
                           animation-name: chess-move-31-from;
-                          animation-delay: 124.5s;
+                          animation-delay: 31.5s;
                         }
       
                         @keyframes chess-move-31-to {
@@ -1515,7 +1515,7 @@
                         }
                         .chess-move-31 .to {
                           animation-name: chess-move-31-to;
-                          animation-delay: 124.5s;
+                          animation-delay: 31.5s;
                         }
                       </style>
                     </div>
@@ -1533,7 +1533,7 @@
                         }
                         .chess-move-32 .from {
                           animation-name: chess-move-32-from;
-                          animation-delay: 128.5s;
+                          animation-delay: 32.5s;
                         }
       
                         @keyframes chess-move-32-to {
@@ -1552,7 +1552,7 @@
                         }
                         .chess-move-32 .to {
                           animation-name: chess-move-32-to;
-                          animation-delay: 128.5s;
+                          animation-delay: 32.5s;
                         }
                       </style>
                     </div>
@@ -1570,7 +1570,7 @@
                         }
                         .chess-move-33 .from {
                           animation-name: chess-move-33-from;
-                          animation-delay: 132.5s;
+                          animation-delay: 33.5s;
                         }
       
                         @keyframes chess-move-33-to {
@@ -1589,7 +1589,7 @@
                         }
                         .chess-move-33 .to {
                           animation-name: chess-move-33-to;
-                          animation-delay: 132.5s;
+                          animation-delay: 33.5s;
                         }
                       </style>
                     </div>
@@ -1607,7 +1607,7 @@
                         }
                         .chess-move-34 .from {
                           animation-name: chess-move-34-from;
-                          animation-delay: 136.5s;
+                          animation-delay: 34.5s;
                         }
       
                         @keyframes chess-move-34-to {
@@ -1626,7 +1626,7 @@
                         }
                         .chess-move-34 .to {
                           animation-name: chess-move-34-to;
-                          animation-delay: 136.5s;
+                          animation-delay: 34.5s;
                         }
                       </style>
                     </div>
@@ -1644,7 +1644,7 @@
                         }
                         .chess-move-35 .from {
                           animation-name: chess-move-35-from;
-                          animation-delay: 140.5s;
+                          animation-delay: 35.5s;
                         }
       
                         @keyframes chess-move-35-to {
@@ -1663,7 +1663,7 @@
                         }
                         .chess-move-35 .to {
                           animation-name: chess-move-35-to;
-                          animation-delay: 140.5s;
+                          animation-delay: 35.5s;
                         }
                       </style>
                     </div>
@@ -1681,7 +1681,7 @@
                         }
                         .chess-move-36 .from {
                           animation-name: chess-move-36-from;
-                          animation-delay: 144.5s;
+                          animation-delay: 36.5s;
                         }
       
                         @keyframes chess-move-36-to {
@@ -1700,7 +1700,7 @@
                         }
                         .chess-move-36 .to {
                           animation-name: chess-move-36-to;
-                          animation-delay: 144.5s;
+                          animation-delay: 36.5s;
                         }
                       </style>
                     </div>
@@ -1737,7 +1737,7 @@
                     animation-fill-mode: forwards;
                     animation-name: chess-clock;
                     animation-delay: 0.5s;
-                    animation-duration: 148s;
+                    animation-duration: 37s;
                     animation-timing-function: linear;
                   }
                   @keyframes chess-clock {
@@ -1763,7 +1763,7 @@
                     opacity: 1;
                   }
                   .chess-move .to {
-                    animation-duration: 4s;
+                    animation-duration: 1s;
                   }
                 </style>
               

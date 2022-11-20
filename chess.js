@@ -12,7 +12,7 @@ let svg = '';
         .replace(/\d+\.\.\./g, '')
         .replace(/\s+/g, ' ');
     let animation = {}
-    for (const [key, defaulted] of Object.entries({ size: 40, delay: 0.5, duration: 4 })) {
+    for (const [key, defaulted] of Object.entries({ size: 40, delay: 0.5, duration: 1 })) {
         if (Number.isNaN(Number(animation[key])))
             animation[key] = defaulted
         if (animation[key] < 0)

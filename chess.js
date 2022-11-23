@@ -8,7 +8,7 @@ const fetch =require( 'node-fetch');
 (async () => {
     let pgn = await (await fetch('https://api.chess.com/pub/player/arash/games/2021/09')).json();
     // console.log('>>>',pgn)
-    let pgnList = pgn.games[pgn.games.length - 2].pgn.split('\n');
+    let pgnList = pgn.games[pgn.games.length - 1].pgn.split('\n');
     pgnList[22] = pgnList[22]
         .replace(/\{\[\%clk \d+:\d+:\d+(\.\d)?\]\}/g, '')
         .replace(/\d+\.\.\./g, '')
@@ -28,7 +28,7 @@ const fetch =require( 'node-fetch');
     console.log(">>", meta)
     const result = Object.fromEntries(meta.Result.split("-").map((score, i) => [i ? "black" : "white", Number(score) || 0]))
 
-   let svg = await ejs.renderFile('./chess.ejs', { meta, moves, animation, result, theme:{b:"green", w:"red"}})
+   let svg = await ejs.renderFile('./chess.ejs', { meta, moves, animation, result, theme:{b:"red", w:"green"}})
     fs.writeFileSync('chess.svg', svg)
 })()
 

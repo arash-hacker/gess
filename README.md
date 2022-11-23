@@ -1,3 +1,6 @@
-<img src="./chess1.svg" />
-
-<img src="./chess2.svg" />
+<div>
+    <img src="./chess.svg" />
+</div>
+<div>
+    <img src="./chess1.svg" />
+</div>

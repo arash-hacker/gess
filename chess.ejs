@@ -63,8 +63,22 @@
               <% {
                   //Utilities functions
                   const pieces = {
-                    w: {p: "♙", r: "♖", n: "♘", b: "♗", q: "♕", k: "♔"},
-                    b: {p: "♟&#xFE0E;", r: "♜", n: "♞", b: "♝", q: "♛", k: "♚"},
+                    w: {
+                      p: include ("./themes/"+theme.w+"/p.svg"),
+                      r: include ("./themes/"+theme.w+"/r.svg"),
+                      n: include ("./themes/"+theme.w+"/n.svg"), 
+                      b: include ("./themes/"+theme.w+"/b.svg"),
+                      q: include ("./themes/"+theme.w+"/q.svg"),
+                      k: include ("./themes/"+theme.w+"/k.svg")
+                    },
+                    b: {
+                      p: include ("./themes/"+theme.b+"/p.svg"),
+                      r: include ("./themes/"+theme.b+"/r.svg"),
+                      n: include ("./themes/"+theme.b+"/n.svg"), 
+                      b: include ("./themes/"+theme.b+"/b.svg"),
+                      q: include ("./themes/"+theme.b+"/q.svg"),
+                      k: include ("./themes/"+theme.b+"/k.svg")
+                    },
                   }
                   const init = ["rnbqkbnr", "pppppppp", "", "", "", "", "PPPPPPPP", "RNBQKBNR"]
                   const column = p => ["a", "b", "c", "d", "e", "f", "g", "h"].indexOf(p[0])
@@ -91,9 +105,10 @@
       
                   //Draw moves
                   // <!-- const moves = moves -->
-                  for (let i = 0; i < moves.length; i++) { const {color, piece, from, to} = moves[i] %>
+                  for (let i = 0; i < moves.length; i++) { 
+                    const {color, piece, from, to} = moves[i] %>
                     <div class="chess-move chess-move-<%= i %>">
-                      <div class="from" style="left: <%= column(from)*size %>px; top: <%= row(from)*size %>px;"><%- pieces[color][piece] %></div>
+                      <div class="from" style="left: <%= column(from)*size %>px; top: <%= row(from)*size %>px;"><%- 'X' %></div>
                       <div class="to" style="left: <%= column(from)*size %>px; top: <%= row(from)*size %>px;"><%- pieces[color][piece] %></div>
                       <style>
                         @keyframes chess-move-<%= i %>-from {
@@ -126,7 +141,7 @@
                           animation-name: chess-move-<%= i %>-to;
                           animation-delay: <%= i * animation.duration + animation.delay %>s;
                         }
-                      </style>
+                        </style>
                     </div>
               <%  } %>
                 <style>

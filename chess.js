@@ -1,12 +1,14 @@
 #!/usr/bin/env node
-const { Chess } = require("chess.js")
-const axios = require('axios')
-const fs = require('fs')
-const ejs = require('ejs');
-let svg = '';
+
+const { Chess } =require( "chess.js");
+const fs =require( 'fs');
+const ejs =require( 'ejs');
+const fetch =require( 'node-fetch');
+
 (async () => {
-    let pgn = (await axios('https://api.chess.com/pub/player/arash/games/2021/09'));
-    let pgnList = pgn.data.games[pgn.data.games.length - 1].pgn.split('\n');
+    let pgn = await (await fetch('https://api.chess.com/pub/player/arash/games/2021/09')).json();
+    // console.log('>>>',pgn)
+    let pgnList = pgn.games[pgn.games.length - 2].pgn.split('\n');
     pgnList[22] = pgnList[22]
         .replace(/\{\[\%clk \d+:\d+:\d+(\.\d)?\]\}/g, '')
         .replace(/\d+\.\.\./g, '')
@@ -26,7 +28,7 @@ let svg = '';
     console.log(">>", meta)
     const result = Object.fromEntries(meta.Result.split("-").map((score, i) => [i ? "black" : "white", Number(score) || 0]))
 
-    svg = await ejs.renderFile('./chess.ejs', { meta, moves, animation, result })
+   let svg = await ejs.renderFile('./chess.ejs', { meta, moves, animation, result, theme:{b:"green", w:"red"}})
     fs.writeFileSync('chess.svg', svg)
 })()
 
